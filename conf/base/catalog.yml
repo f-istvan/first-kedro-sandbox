@@ -42,3 +42,8 @@
 mydummydata:
   type: pandas.CSVDataSet
   filepath: data/01_raw/orders.csv
+
+
+preprocess_dummy_data_mydummydata_output:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/orders.csv
